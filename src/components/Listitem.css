@@ -1,0 +1,47 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.todo__radio,
+.todo__radio--unchecked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ad02fe;
+  color: white;
+  border: 1px solid #bf56ff;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.todo__text,
+.todo__text-checked {
+  color: white;
+  flex: 1;
+  border-bottom: 1px solid #484040;
+  padding-left: 8px;
+}
+
+.todo__delete {
+  cursor: pointer;
+  color: #ad02fe;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.todo__radio--unchecked {
+  background-color: transparent;
+}
+
+.todo__text-checked {
+  text-decoration: line-through;
+  color: #0f90a1;
+}
